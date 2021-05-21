@@ -1,8 +1,13 @@
 import React from 'react'
 
+import SimpleButton from '../../components/SimpleButton'
+
 function Home() {
   return (
-    <h1>Hackday o/</h1>
+    <>
+      <h1>Hackday o/</h1>
+      <SimpleButton />
+    </>
   );
 }
 
