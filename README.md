@@ -17,9 +17,6 @@ $ yarn install
 # Iniciar o projeto
 $ yarn start
 
-# Instalar o servidor backend
-$ npm install -g json-server
-
 # Iniciar o servidor backend
 $ json-server --watch db.json --port 3001
 
