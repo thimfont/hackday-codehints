@@ -1,0 +1,21 @@
+{
+  "languages": [
+    {
+      "id": 0,
+      "name": "javascript",
+      "collections": [
+        {
+          "id": 1,
+          "name": "npm",
+          "codes": [
+            {
+              "id": 1,
+              "description": "tool to manage package",
+              "example": "npm start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
