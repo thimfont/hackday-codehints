@@ -1,12 +1,17 @@
 import React from 'react'
 
-import SimpleButton from '../../components/SimpleButton'
+import Header from '../../components/Header'
+import './styles.css'
 
 function Home() {
   return (
     <>
-      <h1>Hackday o/</h1>
-      <SimpleButton />
+      <div className="wrapper">
+        <Header />
+        <div className="main">
+          <h1>Hackday o/</h1>
+        </div>
+      </div>
     </>
   );
 }
